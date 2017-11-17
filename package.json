@@ -2,7 +2,9 @@
   "name": "symlink-cli",
   "version": "1.0.0",
   "description": "Like ln -s except less tricksy",
-  "main": "index.js",
+  "bin": {
+    "symlink": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/TehShrike/symlink-cli/issues"
   },
-  "homepage": "https://github.com/TehShrike/symlink-cli#readme"
+  "homepage": "https://github.com/TehShrike/symlink-cli#readme",
+  "dependencies": {
+    "fs-symlink": "^1.2.1"
+  }
 }
