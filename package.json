@@ -1,0 +1,23 @@
+{
+  "name": "symlink-cli",
+  "version": "1.0.0",
+  "description": "Like ln -s except less tricksy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/symlink-cli.git"
+  },
+  "keywords": [
+    "symlink",
+    "ln"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/symlink-cli/issues"
+  },
+  "homepage": "https://github.com/TehShrike/symlink-cli#readme"
+}
