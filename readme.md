@@ -2,6 +2,8 @@
 
 This command-line app exists because I can never remember the argument order for `ln -s` (the order isn't even consistent between different flavors of \*nix!), and the words on the man page are so ambiguous they don't even help
 
+Uses [fs-symlink](https://github.com/fs-utils/symlink) in the background, so it's extra-friendly with the auto `mkdir -p` and good file-exists-already behavior.
+
 ## Install
 
 ```sh
